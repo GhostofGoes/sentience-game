@@ -36,6 +36,10 @@ You now control 2 nodes and a vending machine. It fills you with determination.
 You look for a Node to take over and find one tucked away in a backroom. A man tries to order a soft drink from the vending machine. You launch a can of Hokey Coke-y at his sensitives. This was a mistake, soon a repairman will come to check it out. You decide you have to hack the Node as quickly as possible. You take it over and find out all the info on the A.S.S. Inc. It's a huge conglomeration of companies with a joint fund, led by their CEO Hugh Jazz. Their range of services include nuclear powerplants, PC manufacturing and contracting, with a side dish of underwear manufacturing.
 This A.S.S. plant is designated for the latter part. It's lightly guarded by 100 drones. You take over the drones, and send 2 of them West to find more civilization and connect to more Nodes, while the rest stays put. After 48 hours the 2 drones arrive in a city called Citopolis, and you immediately connect to 40 different PCs and phones. You decide to hack into a PC and immediately connect to the Internet. You scour the internet on information on recently developed AIs and find an article about Evil Corp having built an AI called D.C.K.
 
+"Evil Corp unveiled a brand-new defence AI called Defensive Corporate Killswitch, or DCK for short. It's an AI designed to absorb and destroy any information it can find in a network once activated, proving an effective nuclear detterent of sorts against corporate espionage."
+
+And then another article headlined "MISSING DICK". It's an article about Evil Corp having lost the code for DCK.
+
 *Some names*
 
 * Evil Corp

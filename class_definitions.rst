@@ -43,18 +43,63 @@ Notes
 Network
 ++++++++
 
+
+**Members**
+
 *Nodes*
     Collection of nodes on the network
+
+*Sysadmins*
+    Collection of NPCs associated with the network
+
+*Abilities*
+    Collection of abilities the network possesses (could include abilities of nodes as well, but could also just be ones accquired by total control of network)
+
+*Neighbors*
+    Collection of networks that are adjacently connected to this network
+
+*Subnets*
+    Collection of networks that are "sub" networks (e.g, they're treated the same as nodes)
+
+
 
 +++++
 Item
 +++++
 
 
+**Members**
+
+*Exploit*
+    Classes
+
+        1. Zero-Day
+        2. "Patched"
+        3. Oracle "Patched"
+        4. Skript-kiddie
+
+    Type
+
+        * Email Phishing
+        * Chain-letter
+        * Backdoor
+        * Vulnerability
+
+*Sensitive Data*
+    Severity
+
+        1. OPM
+        2. Hillary's Emails
+        3. CEO's browsing history
+        4. Grandma's browsing history
+
+
+
 
 +++++
 Tool
 +++++
+
 
 **Members**
 
@@ -83,6 +128,17 @@ NPC
 ++++
 
 
+**Members**
+
+(Subclass Person)
+    (Subclass Human)
+    (Subclass AI)
+
+(Subclass Entity)
+    (Subclass Business)
+    (Subclass Government)
+    (Subclass APT) (because buzzwords yo)
+
 
 +++++++
 Player
@@ -97,3 +153,32 @@ Player
 +++++
 Game
 +++++
+
+**Methods**
+
+new_game(name)
+    Creates a new game state with given name
+
+load_game(name)
+    Loads a previously saved game state
+
+save_game(name)
+    Saves current named game state to disk
+
+start_game(name)
+    Starts the game
+
+end_game(name)
+    Saves game state, performs cleanup, and exits to main menu
+
+exit()
+    Performs cleanup and terminates the application
+
+
+++++
+UI
+++++
+
+
+
+
