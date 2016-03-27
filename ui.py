@@ -17,7 +17,7 @@
 # GNU Affero General Public License for more details.
 #
 # You should have received a copy of the GNU Affero General Public License
-# along with radicl-vsphere.  If not, see <http://www.gnu.org/licenses/>.
+# along with wsu-hack.  If not, see <http://www.gnu.org/licenses/>.
 
 
 class UI(object):

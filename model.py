@@ -1,5 +1,5 @@
-# player.py
-# The human-playable character (AI)
+# model.py
+# Classes Implementing the core game functionality
 #
 # Copyright (C) 2016 Chris Goes <goes8945@vandals.uidaho.edu>
 # Copyright (C) 2016 Chris Waltrip <walt2178@vandals.uidaho.edu>
@@ -17,16 +17,54 @@
 # GNU Affero General Public License for more details.
 #
 # You should have received a copy of the GNU Affero General Public License
-# along with radicl-vsphere.  If not, see <http://www.gnu.org/licenses/>.
+# along with wsu-hack  If not, see <http://www.gnu.org/licenses/>.
 
+
+# A collection of nodes, administrators and network resources
+class Network(object):
+    """A collection of nodes, administrators and network resources"""
+
+    def __init__(self):
+        pass
+
+
+# A node on a network
+class Node(object):
+    """Represents an object like a host or router"""
+
+    def __init__(self):
+        pass
+
+
+# A tool that can be used by the player
+class Tool(object):
+    """ TODO """
+
+    def __init__(self):
+        pass
+
+
+# A game item
+class Item(object):
+    """ TODO """
+
+    def __init__(self):
+        pass
+
+
+# Any non-playable character or entity
+class NPC(object):
+    """Any non-playable character or entity"""
+
+    def __init__(self):
+        pass
+
+
+# The human-playable character (AI)
 class Player(object):
     """A human controlled player (AI)"""
 
     def __init__(self):
         self.influence = 0
         self.abilities = None
-        
-
-
-
 

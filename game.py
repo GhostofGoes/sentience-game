@@ -1,5 +1,4 @@
 # game.py
-# The primary game loop class.
 #
 # Copyright (C) 2016 Chris Goes <goes8945@vandals.uidaho.edu>
 # Copyright (C) 2016 Chris Waltrip <walt2178@vandals.uidaho.edu>
@@ -17,7 +16,7 @@
 # GNU Affero General Public License for more details.
 #
 # You should have received a copy of the GNU Affero General Public License
-# along with radicl-vsphere.  If not, see <http://www.gnu.org/licenses/>.
+# along with wsu-hack.  If not, see <http://www.gnu.org/licenses/>.
 
 class Game(object):
     """The primary game loop class"""
@@ -30,6 +29,6 @@ class Game(object):
 
 if __name__ == '__main__':
     game = Game()
-    return game.main_loop()
+    #return game.main_loop()
 
 
