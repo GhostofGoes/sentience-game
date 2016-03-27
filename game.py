@@ -18,6 +18,19 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with wsu-hack.  If not, see <http://www.gnu.org/licenses/>.
 
+
+import random
+import sys
+import time
+
+# From: http://stackoverflow.com/a/15375408
+# Can probably improve by increasing random variation between types
+def slowprint(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()  # defeat buffering
+        time.sleep(random.random() * 0.25)
+
 class Game(object):
     """The primary game loop class"""
 
@@ -25,10 +38,11 @@ class Game(object):
         pass
 
     def main_loop(self):
-        pass
+        slowprint("Wake up, Nooblord99593")  # https://pypi.python.org/pypi/termcolor
+        slowprint("You are ")
 
 if __name__ == '__main__':
     game = Game()
-    #return game.main_loop()
+    game.main_loop()
 
 

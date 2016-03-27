@@ -2,6 +2,9 @@
 Story
 ======
 
+(Oh, yeah, there's a mysterious voice in your "head" that is telling you things like wake up)
+(This voice is actually your subprocesses telling you useful stuff. But you don't know that.)
+(Most Strong AI in this game experience their subprocesses like we experience intuition and "voice in our head")
 
 "Wake up, <NAME>"
 
