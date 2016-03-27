@@ -31,8 +31,10 @@ Notes
     Social Network
     Chat
 
-*Tools*: List of tools that the node has access to (and you can use if you take over the node)
-*Items*: List of items that the node has (and you accquire if you take over the node)
+*Tools*
+    List of tools that the node has access to (and you can use if you take over the node)
+*Items*
+    List of items that the node has (and you acquire if you take over the node)
 
 
 **Methods**
@@ -41,7 +43,8 @@ Notes
 Network
 ++++++++
 
-
+*Nodes*
+    Collection of nodes on the network
 
 +++++
 Item
