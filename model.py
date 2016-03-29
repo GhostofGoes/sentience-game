@@ -75,6 +75,8 @@ class NPC(object):
 class Player(object):
     """A human controlled player (AI)"""
 
+    commands = dict()
+
     def __init__(self):
         self.influence = 0
         self.abilities = None

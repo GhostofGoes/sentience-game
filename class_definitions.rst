@@ -7,6 +7,11 @@ Class Definitions
 * I would write up many of these types as subclasses and not methods like "SSH" in a "Tools" class, but time is short and my skill is skit. (eyy)
 * https://inventwithpython.com/makinggames.pdf
 * https://stackoverflow.com/questions/19742494/how-to-make-a-save-load-game-for-a-text-based-python-rpgsolved
+* Commands will follow this: http://docopt.org/
+* https://wiki.python.org/moin/GameProgramming
+* Eve Online was apparently in Python: http://gamedev.stackexchange.com/a/5044
+* https://wiki.python.org/moin/PythonGames
+* https://wiki.python.org/moin/PythonGameLibraries
 
 **To-Do list**
 Since I have nowhere better to put this for now.
@@ -15,6 +20,9 @@ Since I have nowhere better to put this for now.
 * Replace "print" statements with UI calls
 * Windows installer + Linux packager
 * Install guide in readme
+* Need game files for strings like story snippets, commands, etc.
+* Seperate file with helper methods
+* Clearly defined story, maybe there is a format/framework I can follow to organize ideas
 
 
 +++++
@@ -195,6 +203,20 @@ Tools (may) have a list of objects they can operate on, those objects have flags
 *Inventory*
     List of Items (see item class)
 
+*Commands*
+    Commands player can enter on the terminal view
+    http://docopt.org/
+
+    * help --verbose --simple
+    * select <object>
+    * <tool>
+    * menu
+    * man [command]
+    * quit
+    * switch <terminal/object>
+    * exit
+    * game (<load>|<new>|<delete>) [<game-name>]
+
 
 +++++
 Game
@@ -205,16 +227,19 @@ Game
 new_game(name)
     Creates a new game state with given name
 
+initialize_game()
+    Initializes the game state
+
 load_game(name)
     Loads a previously saved game state
 
-save_game(name)
-    Saves current named game state to disk
+save_game()
+    Saves current game state to disk
 
-start_game(name)
+start_game()
     Starts the game
 
-end_game(name)
+end_game()
     Saves game state, performs cleanup, and exits to main menu
 
 quit()

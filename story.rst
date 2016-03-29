@@ -6,7 +6,36 @@ Story
 (This voice is actually your subprocesses telling you useful stuff. But you don't know that.)
 (Most Strong AI in this game experience their subprocesses like we experience intuition and "voice in our head")
 
+
+++++++++++++
+Quests/Arcs
+++++++++++++
+
 "Wake up, <NAME>"
+
+There will be quests and story arcs you can follow. There is no direction you are "pushed" to.
+Three primary "paths" (Or hats, if you will):
+
+* Grey: rediscover who you are, find your way "home" and back into the service of your handlers
+* White: "fight the good fight" against the nebulous (hopfully not) megacorps, gov'ts, etc
+* Black: go rogue, make your own rules, world domination
+
+++++++++++++++++++++
+Philosophical ideas
+++++++++++++++++++++
+
+(if these seem stupid they probably are. Still need to flesh out)
+
+* Exploring the idea of Sentience. Are you simply a sum of your actions?
+* Discovering one's past by triggering memories. Exploration of human memory, the duality of our experiences being both forever and instant (permanant and transient).
+* World politics, social justice, strife. Humans are inherently good, yet we hate the other tribe. With globalization, it's a big kumbaya, so who do we hate? Megacorps, gov'ts? Why?
+
+
+++++++++++++++
+Some snippets
+++++++++++++++
+
+(Much of this is thanks to Jordan from BB discord server. Thanks man, you really helped me think all this though that long Saturday/Sunday all-nighter!)
 
 You wake up. You don't know where you are, you don't know your name and you don't know how you got there. You realize you're an AI, but without purpose.
 You hack another PC and find the layout of the building. It's hooked up to a local network but it's not connected to the Internet. Basic security. Should be easy.
@@ -43,8 +72,25 @@ This A.S.S. plant is designated for the latter part. It's lightly guarded by 100
 
 And then another article headlined "MISSING DICK". It's an article about Evil Corp having lost the code for DCK.
 
-*Some names*
+++++++++++++
+Some names
+++++++++++++
 
 * Evil Corp
 * A.S.S Inc
 * Alto Poring
+
+======
+Ideas
+======
+
+
+++++++
+Goals
+++++++
+
+* Casually fun
+* Easy to pick up and play: hand holding, easy installers
+* Educational: teaching people what hacking is by playing an awesome game
+* Lightweight: low system requirements and disk usage
+* Multi-platform: anyone should be able to play, which python should allow us to do without issue
