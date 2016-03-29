@@ -4,8 +4,17 @@ Class Definitions
 
 **Notes**
 
-I would write up many of these types as subclasses and not methods like "SSH" in a "Tools" class, but time is short and my skill is skit. (eyy)
+* I would write up many of these types as subclasses and not methods like "SSH" in a "Tools" class, but time is short and my skill is skit. (eyy)
+* https://inventwithpython.com/makinggames.pdf
+* https://stackoverflow.com/questions/19742494/how-to-make-a-save-load-game-for-a-text-based-python-rpgsolved
 
+**To-Do list**
+Since I have nowhere better to put this for now.
+
+* Doxygen
+* Replace "print" statements with UI calls
+* Windows installer + Linux packager
+* Install guide in readme
 
 
 +++++
@@ -208,7 +217,7 @@ start_game(name)
 end_game(name)
     Saves game state, performs cleanup, and exits to main menu
 
-exit()
+quit()
     Performs cleanup and terminates the application
 
 
